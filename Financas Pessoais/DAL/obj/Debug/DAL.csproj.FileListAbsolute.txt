@@ -1,0 +1,9 @@
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\bin\Debug\DAL.dll
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\bin\Debug\DAL.pdb
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\bin\Debug\Modelo.dll
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\bin\Debug\Modelo.pdb
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\obj\Debug\DAL.dll
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\DAL\obj\Debug\DAL.pdb
