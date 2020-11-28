@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmPrincipal
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.transaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.transaçõesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transaçõesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,29 +49,22 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // transaçõesToolStripMenuItem
-            // 
-            this.transaçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.transaçõesToolStripMenuItem1});
-            this.transaçõesToolStripMenuItem.Name = "transaçõesToolStripMenuItem";
-            this.transaçõesToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
-            this.transaçõesToolStripMenuItem.Text = "Movimentações";
-            // 
-            // transaçõesToolStripMenuItem1
-            // 
-            this.transaçõesToolStripMenuItem1.Name = "transaçõesToolStripMenuItem1";
-            this.transaçõesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.transaçõesToolStripMenuItem1.Text = "Transações";
-            this.transaçõesToolStripMenuItem1.Click += new System.EventHandler(this.transaçõesToolStripMenuItem1_Click);
-            // 
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clientesToolStripMenuItem,
             this.contasToolStripMenuItem,
             this.categoriasToolStripMenuItem});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Text = "Pessoas";
+            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // contasToolStripMenuItem
             // 
@@ -85,14 +79,29 @@
             this.categoriasToolStripMenuItem.Text = "Categorias";
             this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
-            // frmPrincipal
+            // transaçõesToolStripMenuItem
+            // 
+            this.transaçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.transaçõesToolStripMenuItem1});
+            this.transaçõesToolStripMenuItem.Name = "transaçõesToolStripMenuItem";
+            this.transaçõesToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
+            this.transaçõesToolStripMenuItem.Text = "Movimentações";
+            // 
+            // transaçõesToolStripMenuItem1
+            // 
+            this.transaçõesToolStripMenuItem1.Name = "transaçõesToolStripMenuItem1";
+            this.transaçõesToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
+            this.transaçõesToolStripMenuItem1.Text = "Transações";
+            this.transaçõesToolStripMenuItem1.Click += new System.EventHandler(this.transaçõesToolStripMenuItem1_Click);
+            // 
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmPrincipal";
+            this.Name = "frmMain";
             this.Text = "Finanças Pessoais";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
@@ -110,5 +119,6 @@
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem categoriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
     }
 }

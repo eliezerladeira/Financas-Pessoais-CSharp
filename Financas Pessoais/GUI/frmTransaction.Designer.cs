@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmTransacao
+    partial class frmTransaction
     {
         /// <summary>
         /// Required designer variable.

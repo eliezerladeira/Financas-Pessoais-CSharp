@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmCategorias
+    partial class frmCategory
     {
         /// <summary>
         /// Required designer variable.

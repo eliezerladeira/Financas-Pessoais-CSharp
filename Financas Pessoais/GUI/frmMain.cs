@@ -10,23 +10,30 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmPrincipal : Form
+    public partial class frmMain : Form
     {
-        public frmPrincipal()
+        public frmMain()
         {
             InitializeComponent();
         }
 
         private void transaçõesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmTransacao f = new frmTransacao();
+            frmTransaction f = new frmTransaction();
             f.ShowDialog();
             f.Dispose();
         }
 
         private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCategorias f = new frmCategorias();
+            frmCategory f = new frmCategory();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPessoa f = new frmPessoa();
             f.ShowDialog();
             f.Dispose();
         }

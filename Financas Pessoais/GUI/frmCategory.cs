@@ -13,11 +13,11 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmCategorias : Form
+    public partial class frmCategory : Form
     {
         public String operacao;
 
-        public frmCategorias()
+        public frmCategory()
         {
             InitializeComponent();
         }

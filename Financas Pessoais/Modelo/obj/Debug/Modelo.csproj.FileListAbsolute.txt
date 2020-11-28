@@ -3,3 +3,4 @@ C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\Mode
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\Modelo\obj\Debug\Modelo.dll
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\Modelo\obj\Debug\Modelo.pdb
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
