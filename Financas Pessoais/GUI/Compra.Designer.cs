@@ -57,10 +57,10 @@
             this.txtObservacao = new System.Windows.Forms.TextBox();
             this.lblObservacao = new System.Windows.Forms.Label();
             this.gpbFinanceiro = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblCredito = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.gpbFinanceiro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -368,6 +368,22 @@
             this.gpbFinanceiro.TabStop = false;
             this.gpbFinanceiro.Text = "Financeiro";
             // 
+            // textBox2
+            // 
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(97, 44);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 20);
+            this.textBox2.TabIndex = 90;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(97, 15);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(121, 20);
+            this.textBox1.TabIndex = 89;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -387,22 +403,6 @@
             this.lblCredito.Size = new System.Drawing.Size(45, 13);
             this.lblCredito.TabIndex = 87;
             this.lblCredito.Text = "A Pagar";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(97, 15);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
-            this.textBox1.TabIndex = 89;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(97, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
-            this.textBox2.TabIndex = 90;
             // 
             // frmCompra
             // 
@@ -439,7 +439,7 @@
             this.Controls.Add(this.dtpData);
             this.Controls.Add(this.lblData);
             this.Name = "frmCompra";
-            this.Text = "Compra";
+            this.Text = "Movimentação de Compra";
             this.gpbFinanceiro.ResumeLayout(false);
             this.gpbFinanceiro.PerformLayout();
             this.ResumeLayout(false);
