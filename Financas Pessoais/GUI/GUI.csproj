@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compra.cs">
+    <Compile Include="Transacao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compra.Designer.cs">
-      <DependentUpon>Compra.cs</DependentUpon>
+    <Compile Include="Transacao.Designer.cs">
+      <DependentUpon>Transacao.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCategory.cs">
       <SubType>Form</SubType>
@@ -70,16 +70,16 @@
     <Compile Include="frmPessoa.Designer.cs">
       <DependentUpon>frmPessoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTransaction.cs">
+    <Compile Include="Transaction_Old.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTransaction.Designer.cs">
-      <DependentUpon>frmTransaction.cs</DependentUpon>
+    <Compile Include="Transaction_Old.Designer.cs">
+      <DependentUpon>Transaction_Old.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Compra.resx">
-      <DependentUpon>Compra.cs</DependentUpon>
+    <EmbeddedResource Include="Transacao.resx">
+      <DependentUpon>Transacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCategory.resx">
       <DependentUpon>frmCategory.cs</DependentUpon>
@@ -90,8 +90,8 @@
     <EmbeddedResource Include="frmPessoa.resx">
       <DependentUpon>frmPessoa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTransaction.resx">
-      <DependentUpon>frmTransaction.cs</DependentUpon>
+    <EmbeddedResource Include="Transaction_Old.resx">
+      <DependentUpon>Transaction_Old.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

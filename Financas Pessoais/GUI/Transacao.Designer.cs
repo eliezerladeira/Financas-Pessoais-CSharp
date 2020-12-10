@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmCompra
+    partial class frmTransacao
     {
         /// <summary>
         /// Required designer variable.
@@ -61,6 +61,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblCredito = new System.Windows.Forms.Label();
+            this.rdbEntrada = new System.Windows.Forms.RadioButton();
+            this.rdbSaida = new System.Windows.Forms.RadioButton();
+            this.rdbTransferencia = new System.Windows.Forms.RadioButton();
             this.gpbFinanceiro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -404,11 +407,47 @@
             this.lblCredito.TabIndex = 87;
             this.lblCredito.Text = "A Pagar";
             // 
-            // frmCompra
+            // rdbEntrada
+            // 
+            this.rdbEntrada.AutoSize = true;
+            this.rdbEntrada.Location = new System.Drawing.Point(294, 37);
+            this.rdbEntrada.Name = "rdbEntrada";
+            this.rdbEntrada.Size = new System.Drawing.Size(62, 17);
+            this.rdbEntrada.TabIndex = 88;
+            this.rdbEntrada.TabStop = true;
+            this.rdbEntrada.Text = "Entrada";
+            this.rdbEntrada.UseVisualStyleBackColor = true;
+            // 
+            // rdbSaida
+            // 
+            this.rdbSaida.AutoSize = true;
+            this.rdbSaida.Location = new System.Drawing.Point(377, 37);
+            this.rdbSaida.Name = "rdbSaida";
+            this.rdbSaida.Size = new System.Drawing.Size(54, 17);
+            this.rdbSaida.TabIndex = 89;
+            this.rdbSaida.TabStop = true;
+            this.rdbSaida.Text = "Saída";
+            this.rdbSaida.UseVisualStyleBackColor = true;
+            // 
+            // rdbTransferencia
+            // 
+            this.rdbTransferencia.AutoSize = true;
+            this.rdbTransferencia.Location = new System.Drawing.Point(455, 36);
+            this.rdbTransferencia.Name = "rdbTransferencia";
+            this.rdbTransferencia.Size = new System.Drawing.Size(90, 17);
+            this.rdbTransferencia.TabIndex = 90;
+            this.rdbTransferencia.TabStop = true;
+            this.rdbTransferencia.Text = "Transferência";
+            this.rdbTransferencia.UseVisualStyleBackColor = true;
+            // 
+            // frmTransacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1019, 335);
+            this.Controls.Add(this.rdbTransferencia);
+            this.Controls.Add(this.rdbSaida);
+            this.Controls.Add(this.rdbEntrada);
             this.Controls.Add(this.gpbFinanceiro);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnExcluir);
@@ -438,7 +477,7 @@
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.dtpData);
             this.Controls.Add(this.lblData);
-            this.Name = "frmCompra";
+            this.Name = "frmTransacao";
             this.Text = "Movimentação de Compra";
             this.gpbFinanceiro.ResumeLayout(false);
             this.gpbFinanceiro.PerformLayout();
@@ -481,5 +520,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblCredito;
+        private System.Windows.Forms.RadioButton rdbEntrada;
+        private System.Windows.Forms.RadioButton rdbSaida;
+        private System.Windows.Forms.RadioButton rdbTransferencia;
     }
 }
