@@ -5,22 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*
-        private int _idtransacao;
-        private int _idsequencia;
-        private DateTime _data;
-        private String _tipo;
-        private String _descricao;
-        private int _idcontaorigem;
-        private int _idcontadestino;
-        private Double _valor;
-        private String _nota;
-        private int _idpessoa;
-        private String _notafiscal;
-        private int _parcelas;
-        private int _repetirnumero;
-        private String _repetirtempo;
-*/
+
 namespace DAL
 {
     public class DALTransacao
