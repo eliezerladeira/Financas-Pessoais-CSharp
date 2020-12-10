@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class frmMain : Form
+    public partial class Principal : Form
     {
-        public frmMain()
+        public Principal()
         {
             InitializeComponent();
         }
@@ -34,6 +34,13 @@ namespace GUI
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmPessoa f = new frmPessoa();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCompra f = new frmCompra();
             f.ShowDialog();
             f.Dispose();
         }

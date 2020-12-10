@@ -43,8 +43,8 @@
             this.txtValor = new System.Windows.Forms.TextBox();
             this.lblValor = new System.Windows.Forms.Label();
             this.chkConsolidada = new System.Windows.Forms.CheckBox();
-            this.txtNota = new System.Windows.Forms.TextBox();
-            this.lblNota = new System.Windows.Forms.Label();
+            this.txtObservacao = new System.Windows.Forms.TextBox();
+            this.lblObservacao = new System.Windows.Forms.Label();
             this.lblRepetir = new System.Windows.Forms.Label();
             this.panRepetirTransacao = new System.Windows.Forms.Panel();
             this.rdbAvancado = new System.Windows.Forms.RadioButton();
@@ -57,17 +57,17 @@
             this.lblParcelaFim = new System.Windows.Forms.Label();
             this.lblParcelaInicio = new System.Windows.Forms.Label();
             this.panAvancado = new System.Windows.Forms.Panel();
+            this.txtOcorrencias = new System.Windows.Forms.TextBox();
+            this.lblNrOcorrencias = new System.Windows.Forms.Label();
+            this.lblParcelaFimAvancado = new System.Windows.Forms.Label();
+            this.txtParcelaFimAvancado = new System.Windows.Forms.TextBox();
+            this.txtParcela1Avancado = new System.Windows.Forms.TextBox();
+            this.lblParcelaInicioAvancado = new System.Windows.Forms.Label();
+            this.chkIndefinido = new System.Windows.Forms.CheckBox();
+            this.cmbPeriodo = new System.Windows.Forms.ComboBox();
             this.lblTotalAvancado = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.lblRepetirCada = new System.Windows.Forms.Label();
-            this.cmbPeriodo = new System.Windows.Forms.ComboBox();
-            this.chkIndefinido = new System.Windows.Forms.CheckBox();
-            this.lblParcelaInicioAvancado = new System.Windows.Forms.Label();
-            this.txtParcela1Avancado = new System.Windows.Forms.TextBox();
-            this.txtParcelaFimAvancado = new System.Windows.Forms.TextBox();
-            this.lblParcelaFimAvancado = new System.Windows.Forms.Label();
-            this.lblNrOcorrencias = new System.Windows.Forms.Label();
-            this.txtOcorrencias = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
@@ -226,24 +226,24 @@
             this.chkConsolidada.Text = "Consolidada";
             this.chkConsolidada.UseVisualStyleBackColor = true;
             // 
-            // txtNota
+            // txtObservacao
             // 
-            this.txtNota.Enabled = false;
-            this.txtNota.Location = new System.Drawing.Point(534, 128);
-            this.txtNota.Multiline = true;
-            this.txtNota.Name = "txtNota";
-            this.txtNota.Size = new System.Drawing.Size(473, 113);
-            this.txtNota.TabIndex = 19;
+            this.txtObservacao.Enabled = false;
+            this.txtObservacao.Location = new System.Drawing.Point(534, 128);
+            this.txtObservacao.Multiline = true;
+            this.txtObservacao.Name = "txtObservacao";
+            this.txtObservacao.Size = new System.Drawing.Size(473, 113);
+            this.txtObservacao.TabIndex = 19;
             // 
-            // lblNota
+            // lblObservacao
             // 
-            this.lblNota.AutoSize = true;
-            this.lblNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNota.Location = new System.Drawing.Point(532, 112);
-            this.lblNota.Name = "lblNota";
-            this.lblNota.Size = new System.Drawing.Size(34, 13);
-            this.lblNota.TabIndex = 18;
-            this.lblNota.Text = "Nota";
+            this.lblObservacao.AutoSize = true;
+            this.lblObservacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObservacao.Location = new System.Drawing.Point(532, 112);
+            this.lblObservacao.Name = "lblObservacao";
+            this.lblObservacao.Size = new System.Drawing.Size(34, 13);
+            this.lblObservacao.TabIndex = 18;
+            this.lblObservacao.Text = "Nota";
             // 
             // lblRepetir
             // 
@@ -373,6 +373,78 @@
             this.panAvancado.TabIndex = 34;
             this.panAvancado.Visible = false;
             // 
+            // txtOcorrencias
+            // 
+            this.txtOcorrencias.Location = new System.Drawing.Point(113, 74);
+            this.txtOcorrencias.Name = "txtOcorrencias";
+            this.txtOcorrencias.Size = new System.Drawing.Size(45, 20);
+            this.txtOcorrencias.TabIndex = 40;
+            // 
+            // lblNrOcorrencias
+            // 
+            this.lblNrOcorrencias.AutoSize = true;
+            this.lblNrOcorrencias.Location = new System.Drawing.Point(13, 77);
+            this.lblNrOcorrencias.Name = "lblNrOcorrencias";
+            this.lblNrOcorrencias.Size = new System.Drawing.Size(94, 13);
+            this.lblNrOcorrencias.TabIndex = 39;
+            this.lblNrOcorrencias.Text = "Nr. de ocorrências";
+            // 
+            // lblParcelaFimAvancado
+            // 
+            this.lblParcelaFimAvancado.AutoSize = true;
+            this.lblParcelaFimAvancado.Location = new System.Drawing.Point(164, 45);
+            this.lblParcelaFimAvancado.Name = "lblParcelaFimAvancado";
+            this.lblParcelaFimAvancado.Size = new System.Drawing.Size(19, 13);
+            this.lblParcelaFimAvancado.TabIndex = 38;
+            this.lblParcelaFimAvancado.Text = "de";
+            // 
+            // txtParcelaFimAvancado
+            // 
+            this.txtParcelaFimAvancado.Location = new System.Drawing.Point(189, 42);
+            this.txtParcelaFimAvancado.Name = "txtParcelaFimAvancado";
+            this.txtParcelaFimAvancado.Size = new System.Drawing.Size(45, 20);
+            this.txtParcelaFimAvancado.TabIndex = 37;
+            // 
+            // txtParcela1Avancado
+            // 
+            this.txtParcela1Avancado.Location = new System.Drawing.Point(113, 42);
+            this.txtParcela1Avancado.Name = "txtParcela1Avancado";
+            this.txtParcela1Avancado.Size = new System.Drawing.Size(45, 20);
+            this.txtParcela1Avancado.TabIndex = 36;
+            // 
+            // lblParcelaInicioAvancado
+            // 
+            this.lblParcelaInicioAvancado.AutoSize = true;
+            this.lblParcelaInicioAvancado.Location = new System.Drawing.Point(13, 45);
+            this.lblParcelaInicioAvancado.Name = "lblParcelaInicioAvancado";
+            this.lblParcelaInicioAvancado.Size = new System.Drawing.Size(88, 13);
+            this.lblParcelaInicioAvancado.TabIndex = 35;
+            this.lblParcelaInicioAvancado.Text = "Iniciar na parcela";
+            // 
+            // chkIndefinido
+            // 
+            this.chkIndefinido.AutoSize = true;
+            this.chkIndefinido.Enabled = false;
+            this.chkIndefinido.Location = new System.Drawing.Point(260, 13);
+            this.chkIndefinido.Name = "chkIndefinido";
+            this.chkIndefinido.Size = new System.Drawing.Size(137, 17);
+            this.chkIndefinido.TabIndex = 34;
+            this.chkIndefinido.Text = "Repetir indefinidamente";
+            this.chkIndefinido.UseVisualStyleBackColor = true;
+            // 
+            // cmbPeriodo
+            // 
+            this.cmbPeriodo.FormattingEnabled = true;
+            this.cmbPeriodo.Items.AddRange(new object[] {
+            "dia",
+            "semana",
+            "mês",
+            "ano"});
+            this.cmbPeriodo.Location = new System.Drawing.Point(170, 9);
+            this.cmbPeriodo.Name = "cmbPeriodo";
+            this.cmbPeriodo.Size = new System.Drawing.Size(64, 21);
+            this.cmbPeriodo.TabIndex = 33;
+            // 
             // lblTotalAvancado
             // 
             this.lblTotalAvancado.AutoSize = true;
@@ -398,78 +470,6 @@
             this.lblRepetirCada.Size = new System.Drawing.Size(77, 13);
             this.lblRepetirCada.TabIndex = 29;
             this.lblRepetirCada.Text = "Repetir a cada";
-            // 
-            // cmbPeriodo
-            // 
-            this.cmbPeriodo.FormattingEnabled = true;
-            this.cmbPeriodo.Items.AddRange(new object[] {
-            "dia",
-            "semana",
-            "mês",
-            "ano"});
-            this.cmbPeriodo.Location = new System.Drawing.Point(170, 9);
-            this.cmbPeriodo.Name = "cmbPeriodo";
-            this.cmbPeriodo.Size = new System.Drawing.Size(64, 21);
-            this.cmbPeriodo.TabIndex = 33;
-            // 
-            // chkIndefinido
-            // 
-            this.chkIndefinido.AutoSize = true;
-            this.chkIndefinido.Enabled = false;
-            this.chkIndefinido.Location = new System.Drawing.Point(260, 13);
-            this.chkIndefinido.Name = "chkIndefinido";
-            this.chkIndefinido.Size = new System.Drawing.Size(137, 17);
-            this.chkIndefinido.TabIndex = 34;
-            this.chkIndefinido.Text = "Repetir indefinidamente";
-            this.chkIndefinido.UseVisualStyleBackColor = true;
-            // 
-            // lblParcelaInicioAvancado
-            // 
-            this.lblParcelaInicioAvancado.AutoSize = true;
-            this.lblParcelaInicioAvancado.Location = new System.Drawing.Point(13, 45);
-            this.lblParcelaInicioAvancado.Name = "lblParcelaInicioAvancado";
-            this.lblParcelaInicioAvancado.Size = new System.Drawing.Size(88, 13);
-            this.lblParcelaInicioAvancado.TabIndex = 35;
-            this.lblParcelaInicioAvancado.Text = "Iniciar na parcela";
-            // 
-            // txtParcela1Avancado
-            // 
-            this.txtParcela1Avancado.Location = new System.Drawing.Point(113, 42);
-            this.txtParcela1Avancado.Name = "txtParcela1Avancado";
-            this.txtParcela1Avancado.Size = new System.Drawing.Size(45, 20);
-            this.txtParcela1Avancado.TabIndex = 36;
-            // 
-            // txtParcelaFimAvancado
-            // 
-            this.txtParcelaFimAvancado.Location = new System.Drawing.Point(189, 42);
-            this.txtParcelaFimAvancado.Name = "txtParcelaFimAvancado";
-            this.txtParcelaFimAvancado.Size = new System.Drawing.Size(45, 20);
-            this.txtParcelaFimAvancado.TabIndex = 37;
-            // 
-            // lblParcelaFimAvancado
-            // 
-            this.lblParcelaFimAvancado.AutoSize = true;
-            this.lblParcelaFimAvancado.Location = new System.Drawing.Point(164, 45);
-            this.lblParcelaFimAvancado.Name = "lblParcelaFimAvancado";
-            this.lblParcelaFimAvancado.Size = new System.Drawing.Size(19, 13);
-            this.lblParcelaFimAvancado.TabIndex = 38;
-            this.lblParcelaFimAvancado.Text = "de";
-            // 
-            // lblNrOcorrencias
-            // 
-            this.lblNrOcorrencias.AutoSize = true;
-            this.lblNrOcorrencias.Location = new System.Drawing.Point(13, 77);
-            this.lblNrOcorrencias.Name = "lblNrOcorrencias";
-            this.lblNrOcorrencias.Size = new System.Drawing.Size(94, 13);
-            this.lblNrOcorrencias.TabIndex = 39;
-            this.lblNrOcorrencias.Text = "Nr. de ocorrências";
-            // 
-            // txtOcorrencias
-            // 
-            this.txtOcorrencias.Location = new System.Drawing.Point(113, 74);
-            this.txtOcorrencias.Name = "txtOcorrencias";
-            this.txtOcorrencias.Size = new System.Drawing.Size(45, 20);
-            this.txtOcorrencias.TabIndex = 40;
             // 
             // btnCancelar
             // 
@@ -546,7 +546,7 @@
             this.btnSair.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSair.UseVisualStyleBackColor = true;
             // 
-            // frmTransacao
+            // frmTransaction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -560,8 +560,8 @@
             this.Controls.Add(this.panParcelamento);
             this.Controls.Add(this.panRepetirTransacao);
             this.Controls.Add(this.lblRepetir);
-            this.Controls.Add(this.txtNota);
-            this.Controls.Add(this.lblNota);
+            this.Controls.Add(this.txtObservacao);
+            this.Controls.Add(this.lblObservacao);
             this.Controls.Add(this.chkConsolidada);
             this.Controls.Add(this.txtValor);
             this.Controls.Add(this.lblValor);
@@ -577,7 +577,7 @@
             this.Controls.Add(this.rdbTransferencia);
             this.Controls.Add(this.rdbReceita);
             this.Controls.Add(this.rdbDespesa);
-            this.Name = "frmTransacao";
+            this.Name = "frmTransaction";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Transações";
             this.panRepetirTransacao.ResumeLayout(false);
@@ -608,8 +608,8 @@
         private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.Label lblValor;
         private System.Windows.Forms.CheckBox chkConsolidada;
-        private System.Windows.Forms.TextBox txtNota;
-        private System.Windows.Forms.Label lblNota;
+        private System.Windows.Forms.TextBox txtObservacao;
+        private System.Windows.Forms.Label lblObservacao;
         private System.Windows.Forms.Label lblRepetir;
         private System.Windows.Forms.Panel panRepetirTransacao;
         private System.Windows.Forms.RadioButton rdbAvancado;
