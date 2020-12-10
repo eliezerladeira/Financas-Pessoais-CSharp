@@ -15,6 +15,7 @@ C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.exe
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.pdb
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.frmCategory.resources
-C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.frmMain.resources
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.frmPessoa.resources
 C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.frmTransaction.resources
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.frmTransacao.resources
+C:\Users\eliez\OneDrive\Projetos\Financas-Pessoais-CSharp\Financas Pessoais\GUI\obj\Debug\GUI.Principal.resources

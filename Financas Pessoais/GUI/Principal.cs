@@ -19,7 +19,7 @@ namespace GUI
 
         private void transaçõesToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            frmTransaction f = new frmTransaction();
+            frmTransacao f = new frmTransacao();
             f.ShowDialog();
             f.Dispose();
         }

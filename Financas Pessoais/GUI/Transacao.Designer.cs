@@ -265,6 +265,7 @@
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Enabled = false;
             this.btnCancelar.FlatAppearance.BorderSize = 0;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -280,6 +281,7 @@
             // 
             // btnExcluir
             // 
+            this.btnExcluir.Enabled = false;
             this.btnExcluir.FlatAppearance.BorderSize = 0;
             this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -295,6 +297,7 @@
             // 
             // btnAlterar
             // 
+            this.btnAlterar.Enabled = false;
             this.btnAlterar.FlatAppearance.BorderSize = 0;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -410,6 +413,7 @@
             // rdbEntrada
             // 
             this.rdbEntrada.AutoSize = true;
+            this.rdbEntrada.Enabled = false;
             this.rdbEntrada.Location = new System.Drawing.Point(294, 37);
             this.rdbEntrada.Name = "rdbEntrada";
             this.rdbEntrada.Size = new System.Drawing.Size(62, 17);
@@ -421,6 +425,7 @@
             // rdbSaida
             // 
             this.rdbSaida.AutoSize = true;
+            this.rdbSaida.Enabled = false;
             this.rdbSaida.Location = new System.Drawing.Point(377, 37);
             this.rdbSaida.Name = "rdbSaida";
             this.rdbSaida.Size = new System.Drawing.Size(54, 17);
@@ -432,6 +437,7 @@
             // rdbTransferencia
             // 
             this.rdbTransferencia.AutoSize = true;
+            this.rdbTransferencia.Enabled = false;
             this.rdbTransferencia.Location = new System.Drawing.Point(455, 36);
             this.rdbTransferencia.Name = "rdbTransferencia";
             this.rdbTransferencia.Size = new System.Drawing.Size(90, 17);
