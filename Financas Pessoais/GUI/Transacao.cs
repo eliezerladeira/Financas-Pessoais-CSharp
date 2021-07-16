@@ -16,5 +16,10 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btnIncluir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
